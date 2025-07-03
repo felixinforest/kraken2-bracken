@@ -13,8 +13,8 @@ fi
 # Input and environment
 inf="$1"
 fname=$(basename "$inf" | sed -E 's/\.fastq\.gz$//')
-kraken_db="/media/felicia/SiLoL_drive/database/Kraken_db"
-kraken_sif="/home/felicia/my_sif/nf-sif/kraken2.img"
+kraken_db="/path/to/database/Kraken_db"
+kraken_sif="/path/to/my_sif/kraken2.img"
 logfile="${fname}_kraken_bracken_run.log"
 
 # Start logging
